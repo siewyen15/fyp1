@@ -40,6 +40,7 @@ class RegisterActivity : AppCompatActivity() {
                                 .setDisplayName(fullname)
                                 .build()
 
+
                             user?.updateProfile(profileUpdates)
 
                             val intent = Intent(this, LoginActivity::class.java)
