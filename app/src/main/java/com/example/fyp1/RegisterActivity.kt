@@ -25,6 +25,11 @@ class RegisterActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
+
+
+
+
         findViewById<Button>(R.id.btn_register).setOnClickListener {
             val email = findViewById<TextInputEditText>(R.id.emailEt).text.toString()
             val pass = findViewById<TextInputEditText>(R.id.passEt).text.toString()
